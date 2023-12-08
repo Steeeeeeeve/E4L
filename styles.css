@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    position: relative;
+    background: url('forest-animation.gif') no-repeat center top / cover; /* Use "cover" for the background GIF */
+    height: 500px; /* Set a fixed height for the header */
+    text-align: center;
+    color: #fff;
+  }
+  
+  .logo {
+    max-width: 200px;
+    display: block;
+    margin: 50px auto 0; /* Adjust the margin as needed */
+    padding-top: 20px; /* Adjust the padding as needed */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333; /* Dark color for the navigation items */
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .audiologists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .audiologist {
+    text-align: center;
+  }
+  
+  .audiologist img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+\  
